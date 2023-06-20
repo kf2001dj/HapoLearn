@@ -83,10 +83,8 @@ function App() {
                     HapoLearn
                 </p>                                  
           </div> 
-          <div>
-              <button className='button_x1'>
+          <div className='button_x1'>
                 <img src='./image/Exclude.png'></img>
-              </button>
           </div> 
           <div className='chat_learn'>
             <div className='chat1'>
@@ -95,6 +93,25 @@ function App() {
               Bạn có cần chúng tôi hỗ trợ gì không? 
               </p>
             </div>
+          </div>
+          <div className='mes_dangnhap'>
+            <div className='mes_logo'>
+              <img src='./image/Vector.png'></img>
+            </div>
+            
+            <div className='mes_button'>
+              <p> 
+                Đăng nhập vào Messenger
+              </p>
+            </div>
+
+            <div className='mes_mes'>
+              <p>
+              Chat với HapoLearn trong Messenger
+              </p>
+            </div>
+
+
           </div>
 
         </div>
