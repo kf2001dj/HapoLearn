@@ -73,17 +73,15 @@ function App() {
           </div>
 
         <div className='chatBot'>  
-
           <div className='chatBot_cu1'>
               <img src='./image/Ellipse 7.png'></img>
           </div>
-
           <div className='chatBot_text1'>
                 <p>
                     HapoLearn
                 </p>                                  
           </div> 
-          <div className='button_x1'>
+          <div className='button_x1'>  
                 <img src='./image/Exclude.png'></img>
           </div> 
           <div className='chat_learn'>
@@ -94,28 +92,121 @@ function App() {
               </p>
             </div>
           </div>
-          <div className='mes_dangnhap'>
+
+          <button className='mes_bt'>
             <div className='mes_logo'>
               <img src='./image/Vector.png'></img>
             </div>
-            
-            <div className='mes_button'>
+            <div className='mes_bt_bt'>
               <p> 
                 Đăng nhập vào Messenger
               </p>
             </div>
+          </button>
 
-            <div className='mes_mes'>
+           <div className='mes_mes'>
               <p>
               Chat với HapoLearn trong Messenger
               </p>
+          </div>
+        </div>
+        <div className='fon_xam'></div>
+        <div>
+          <div className='ds_1'>
+              <div className='ds_js'>
+                <div className='ds_js_1'>
+                  <img src='./image/Rectangle 7.png'></img>
+                </div>
+              </div>
+
+              <div className='ds_nd1'>
+                <p>
+                HTML/CSS/js Tutorial
+                </p>
+              </div>
+
+              <div className='ds_nd1_2'>
+                <p>
+                I knew hardly anything about HTML, JS, and CSS
+                before entering New Media. I had coded quite a bit,
+                but never touched anything in regards to web
+                development.
+                </p>
+              </div>
+
+              <button className='ds_bt_1'>
+                  <div className='ds_nd1_bt1'>
+                      <h2>
+                      Take This Course
+                      </h2>         
+                  </div>   
+              </button>    
+            </div>
+        
+            <div className='ds_2'>
+              <div className='ds_js2'>
+                <div className='ds_js_2'>
+                  <img src='./image/laravel-1-logo-black-and-white 1.png'></img>           
+                </div>
+              </div>
+              <div className='ds_nd2'>
+                <p>
+                LARAVEL Tutorial
+                </p>
+              </div>
+
+              <div className='ds_nd2_2'>
+                <p>
+                I knew hardly anything about HTML, JS, and CSS
+                before entering New Media. I had coded quite a bit,
+                but never touched anything in regards to web
+                development.
+                </p>
+              </div>
+
+              <button className='ds_bt_2'>
+                  <div className='ds_nd2_bt2'>
+                      <h2>
+                      Take This Course
+                      </h2>         
+                  </div>   
+              </button>    
+            </div>
+
+            <div className='ds_3'>
+              <div className='ds_js3'>
+                <div className='ds_js_3'>
+                  <img src='./image/Rectangle 15.png'></img>
+                </div>
+              </div>
+              <div className='ds_nd3'>
+                <p>
+                PHP Tutorial
+                </p>
+              </div>
+
+              <div className='ds_nd3_3'>
+                <p>
+                I knew hardly anything about HTML, JS, and CSS
+                before entering New Media. I had coded quite a bit,
+                but never touched anything in regards to web
+                development.
+                </p>
+              </div>
+
+              <button className='ds_bt_3'>
+                  <div className='ds_nd3_bt3'>
+                      <h2>
+                      Take This Course
+                      </h2>         
+                  </div>   
+              </button>
             </div>
 
 
-          </div>
+
 
         </div>
-
    
 
         
