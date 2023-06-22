@@ -362,20 +362,104 @@ function App() {
             </div>
           </div>
 
+          <div className='feed'>
+            <p>
+            Feedback
+            </p>
+          </div>
+          <div className='f1'></div>
+          <div className='text_feed'>
+            <p>
+            What other students turned professionals have to say about us
+             after learning with us and reaching their goals
+            </p>
+          </div>
+
+          <div className='chat1_bt'>
+            <img src='./image/Union.png'></img>
+            <div className='chat1_bt_text1'>
+              <p>
+              “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+              </p>
+            </div>
+           
+          </div>
+
+          <div className='chat1_bt_nut1'></div>
+
+          <div className='c1_nut2'>
+            <img src='./image/Group 11.png'></img>
+          </div>
+
+          <div className='chat2_bt'>
+            <img src='./image/Union.png'></img>
+            <div className='chat2_bt_text2'>
+              <p>
+              “A wonderful course on how to start. Eddie beautifully conveys all essentials of
+              a becoming a good Angular developer. Very glad to have taken this course.
+              Thank you Eddie Bryan.”
+              </p>
+            </div>
+          </div>
+          <div className='chat2_bt_nut1'></div>
+          <div className='chat2_bt_nut2'>
+            <img src='./image/Group 10.png'></img>
+          </div>
+          <div className='bl_1'>
+            <img src='./image/Ellipse 1.png'></img>
+          </div>
+          <div className='bl_1_ten1'><p>Hoang Anh Nguyen</p></div>
+          <div className='bl_1_kn1'><p>PHP</p></div>
+          <div className='bl_1_ha1'><img src='./image/sao-1.png'></img> </div>
+          <div className='bl_1_ha2'><img src='./image/sao-1.png'></img> </div>
+          <div className='bl_1_ha3'><img src='./image/sao-1.png'></img> </div>
+          <div className='bl_1_ha4'><img src='./image/sao-1.png'></img> </div>
+          <div className='bl_1_ha5'><img src='./image/sao.png'></img> </div>
+
+          <div className='bl_2'>
+            <img src='./image/Ellipse 1.png'></img>
+          </div>
+          <div className='bl_2_ten2'><p>Tuan Tran Hoang</p></div>
+          <div className='bl_2_kn2'><p>Python</p></div>
+          <div className='bl_2_ha2'>
+            <img src='./image/sao-1.png'></img>
+          </div>
+          <div className='bl_2_ha1'><img src='./image/sao-1.png'></img> </div>
+          <div className='bl_2_ha2'><img src='./image/sao-1.png'></img> </div>
+          <div className='bl_2_ha3'><img src='./image/sao-1.png'></img> </div>
+          <div className='bl_2_ha4'><img src='./image/sao-1.png'></img> </div>
+          <div className='bl_2_ha5'><img src='./image/-5.png'></img> </div>
+          <div className='bl_2_ha6'><img src='./image/sao.png'></img> </div>
 
 
-
-
-
+          <div className='become'><img src='./image/Group 7.png'></img>
+            <div className='be_text'>
+              <p>
+              Become a member of our
+              growing community!
+              </p>
+            </div>
+          </div>  
+          <button className='bt_become'>
+               <div className='bt_become_text'>Start Learning Now!</div>
+          </button>
+          <div className='start'><p>Statistic</p></div>
+          <div className='start_1'></div>
+          <div className='text_1'><p>Courses</p></div>
+          <div className='text_2'><p>Lessons</p></div>
+          <div className='text_3'><p>Learners</p></div>
+          <div className='so_1'><p>1,586</p></div>
+          <div className='so_2'><p>2,689</p></div>
+          <div className='so_3'><p>16,882</p></div>
+         
       </body>
 
 
-
       <footer>
+        <div className='foot_bt'>
 
+        </div>
       </footer> 
-
-
 
     </div>
   );
