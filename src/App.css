@@ -6,7 +6,7 @@
   border-radius: 0px;
 }
 
-.App-header {
+.appHeader {
   position: absolute;
   left: 0%;
   right: 0%;
@@ -15,7 +15,7 @@
   background: #FFFFFF;
 }
 
-.image1 {
+.imgHapo {
   height: 70px;
   width: 340.15625px;
   left: 46px;
@@ -24,7 +24,7 @@
   position: absolute;
 }
 
-.home {
+.txtHome {
   height: 19px;
   width: 43px;
   left: 930px;
@@ -41,7 +41,7 @@
   text-align: left;
 }
 
-.home_1{
+.btnHome {
   height: 34px;
   width: 70px;
   left: 1008px;
@@ -51,7 +51,7 @@
   color: #FFFFFF;
 }
 
-.all {
+.txtAll {
   height: 19px;
   width: 93px;
   left: 1028px;
@@ -66,7 +66,7 @@
   text-align: left;
 }
 
-.all_1{
+.btnAll {
   height: 34px;
   width: 110px;
   left: 1008px;
@@ -75,7 +75,7 @@
   background: #B2D235;
 }
 
-.login{
+.txtLogin {
   height: 19px;
   width: 116px;
   left: 1171px;
@@ -90,7 +90,7 @@
   text-align: left;
 }
 
-.login_1{
+.btnLogin {
   height: 34px;
   width: 120px;
   left: 1008px;
@@ -99,7 +99,7 @@
   background: #B2D235;
 }
 
-.profile{
+.txtProfile {
   height: 19px;
   width: 58px;
   left: 1322px;
@@ -114,7 +114,7 @@
   text-align: left;
 }
 
-.pro_1{
+.btnPro {
   height: 34px;
   width: 100px;
   left: 1008px;
@@ -123,7 +123,7 @@
   background: #B2D235;
 }
 
-.body{
+.txtBody {
   height: 655px;
   width: 1440px;
   left: 0px;
@@ -131,7 +131,7 @@
   border-radius: 0px;
 }
 
-.image_body1{
+.imgHapoLearn {
   height: 655px;
   width: 1440px;
   left: 0px;
@@ -140,7 +140,7 @@
   position: absolute;
 }
 
-.p1_1{
+.txtLearn {
   position: absolute;
   width: 513px;
   height: 61px;
@@ -155,7 +155,7 @@
   color: #11114E;
 }
 
-.p1_2{
+.imgGr {
   position: absolute;
   width: 395px;
   height: 61px;
@@ -170,7 +170,7 @@
   color: #11114E;
 }
 
-.p1_3{
+.txtIn {
   height: 50px;
   width: 249px;
   left: 60px;
@@ -186,7 +186,7 @@
   color: #505353;
 }
 
-.button_Start{
+.btnStart {
   position: absolute;
   width: 243px;
   height: 37px;
@@ -202,7 +202,7 @@
   border: 0.3px solid #FFFFFF;
 }
 
-.bt_1{
+.btnSt {
   height: 70px;
   width: 360px;
   left: 60px;
@@ -213,7 +213,7 @@
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.chatBot{
+.txtChat {
   height: 190px;
   width: 360px;
   left: 1045px;
@@ -223,7 +223,7 @@
   position: absolute;
 }
 
-.chatBot_cu1{
+.imgCu {
   position: absolute;
   height: 28px;
   width: 28px;
@@ -232,7 +232,7 @@
   border-radius: 0px;
 }
 
-.chatBot_text1{
+.txtHapo {
   height: 15px;
   width: 45px;
   left: 65px;
@@ -249,7 +249,7 @@
   position: absolute;
 }
 
-.button_x1{
+.btnEx {
   position: absolute;
   width: 24px;
   height: 24px;
@@ -259,7 +259,7 @@
   border-radius: 100px;
 }
 
-.chat_learn{
+.txtLea {
   height: 50px;
   width: 230px;
   left: 65px;
@@ -270,7 +270,7 @@
   border-radius: 15px;
 }
 
-.chat1{
+.txtHe {
   height: 50px;
   width: 140px;
   left: 12px;
@@ -286,7 +286,7 @@
   color: #505353;
 }
 
-.mes_bt{
+.btnMes {
   position: absolute;
   width: 260px;
   height: 37px;
@@ -296,7 +296,7 @@
   border-radius: 10px;
 }
 
-.mes_logo{
+.imgVec {
   position: absolute;
   height: 20px;
   width: 95px;
@@ -305,7 +305,7 @@
   border-radius: 0px;
 }
 
-.mes_bt_bt{
+.txtMes {
   position: absolute;
   width: 148px;
   height: 95px;
@@ -321,7 +321,7 @@
   color: #FFFFFF;
 }
 
-.mes_mes{
+.txtChatmes {
   position: absolute;
   width: 208px;
   height: 16px;
@@ -337,7 +337,26 @@
   color: #B3B3B3;
 }
 
-.ds_1{
+.txtFont {
+  position: absolute;
+  width: 1440px;
+  height: 160px;
+  left: 0px;
+  top: 805px;
+  background: #E5E5E5;
+}
+
+.btnMeschat {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 814px;
+  left: 1320px;
+  
+
+}
+
+.txtListhtml {
   height: 470px;
   width: 370px;
   left: 135px;
@@ -349,7 +368,7 @@
   border-radius: 15px;
 }
 
-.ds_js{
+.txtForhtml {
   height: 215px;
   width: 370px;
   left: 0px;
@@ -361,7 +380,7 @@
   border-radius: 15px 15px 0px 0px;
 }
 
-.ds_js_1{
+.imgRect {
   height: 125px;
   width: 226px;
   left: 75px;
@@ -369,74 +388,7 @@
   border-radius: 0px;
   position: absolute;
 }
-
-.ds_2{
-  height: 470px;
-  width: 370px;
-  left: 535px;
-  top: 855px;
-  border-radius: 15px;
-  position: absolute;
-  background: #FFFFFF;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 15px;
-}
-
-.ds_js2{
-  height: 215px;
-  width: 370px;
-  left: 0px;
-  top: 0px;
-  border-radius: [object Object]px;
-  position: absolute;
-  background: #DC594C;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 15px 15px 0px 0px;
-}
-
-.ds_js_2{
-  height: 125px;
-  width: 226px;
-  left: 85px;
-  top: 40px;
-  border-radius: 0px;
-  position: absolute;
-}
-
-.ds_3{
-  height: 470px;
-  width: 370px;
-  left: 935px;
-  top: 855px;
-  border-radius: 15px;
-  position: absolute;
-  background: #FFFFFF;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 15px;
-}
-
-.ds_js3{
-  height: 215px;
-  width: 370px;
-  left: 0px;
-  top: 0px;
-  border-radius: [object Object]px;
-  position: absolute;
-  background: #556598;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 15px 15px 0px 0px;
-}
-
-.ds_js_3{
-  height: 125px;
-  width: 226px;
-  left: 70px;
-  top: 45px;
-  border-radius: 0px;
-  position: absolute;
-}
-
-.ds_nd1{
+.txtTuto {
   height: 37px;
   width: 274px;
   left: 50px;
@@ -452,7 +404,7 @@
   color: #B2D235;
 }
 
-.ds_nd1_2{
+.txtHtml {
   height: 80px;
   width: 275px;
   left: 50px;
@@ -469,7 +421,7 @@
   color: #505353;
 }
 
-.ds_bt_1{
+.btnHtml {
   height: 42px;
   width: 200px;
   left: 90px;
@@ -482,7 +434,7 @@
   color: #FFFFFF;
 }
 
-.ds_nd1_bt1{
+.txtTkhtml {
   height: 60px;
   width: 150px;
   left: 25px;
@@ -498,7 +450,39 @@
   color: #FFFFFF;
 }
 
-.ds_nd2{
+.txtLava {
+  height: 470px;
+  width: 370px;
+  left: 535px;
+  top: 855px;
+  border-radius: 15px;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.imgLava {
+  height: 215px;
+  width: 370px;
+  left: 0px;
+  top: 0px;
+  border-radius: [object Object]px;
+  position: absolute;
+  background: #DC594C;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0px 0px;
+}
+
+.imgLavafont {
+  height: 125px;
+  width: 226px;
+  left: 85px;
+  top: 40px;
+  border-radius: 0px;
+  position: absolute;
+}
+.txtLavatual {
   position: absolute;
   height: 37px;
   width: 400px;
@@ -514,7 +498,7 @@
   color: #B2D235;
 }
 
-.ds_nd2_2{
+.txtLavadevment {
   position: absolute;
   width: 275px;
   height: 80px;
@@ -530,7 +514,7 @@
   color: #505353;
 }
 
-.ds_bt_2{
+.btnLavatake {
   height: 42px;
   width: 200px;
   left: 85px;
@@ -542,7 +526,7 @@
   position: absolute;
 }
 
-.ds_nd2_bt2{
+.txtLavatake {
   position: absolute;
   width: 127px;
   height: 22px;
@@ -557,7 +541,40 @@
   color: #FFFFFF;
 }
 
-.ds_nd3{
+.txtPhplist {
+  height: 470px;
+  width: 370px;
+  left: 935px;
+  top: 855px;
+  border-radius: 15px;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.txtPhpfont {
+  height: 215px;
+  width: 370px;
+  left: 0px;
+  top: 0px;
+  border-radius: [object Object]px;
+  position: absolute;
+  background: #556598;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0px 0px;
+}
+
+.imgRect {
+  height: 125px;
+  width: 226px;
+  left: 70px;
+  top: 45px;
+  border-radius: 0px;
+  position: absolute;
+}
+
+.txtPhptual {
   position: absolute;
   width: 157px;
   height: 37px;
@@ -572,7 +589,7 @@
   color: #B2D235;
 }
 
-.ds_nd3_3{
+.txtPhpdevent {
   position: absolute;
   width: 275px;
   height: 80px;
@@ -588,7 +605,7 @@
   color: #505353;
 }
 
-.ds_bt_3{
+.btnPhptake {
   position: absolute;
   width: 200px;
   height: 42px;
@@ -599,7 +616,7 @@
   border-radius: 22px;
 }
 
-.ds_nd3_bt3{
+.txtPhptake {
   position: absolute;
   width: 127px;
   height: 22px;
@@ -614,16 +631,7 @@
   color: #FFFFFF;
 }
 
-.fon_xam{
-  position: absolute;
-  width: 1440px;
-  height: 160px;
-  left: 0px;
-  top: 805px;
-  background: #E5E5E5;
-}
-
-.o1{
+.txtOther {
   position: absolute;
   height: 98px;
   width: 485px;
@@ -640,7 +648,7 @@
   color: #11114E;
 }
 
-.o2{
+.btnOther {
   height: 6px;
   width: 455px;
   left: 477px;
@@ -650,7 +658,7 @@
   background: #B2D235;
 }
 
-.ds2{
+.txtCsslist {
   position: absolute;
   width: 370px;
   height: 395px;
@@ -661,7 +669,7 @@
   border-radius: 15px;
 }
 
-.ds2_js4{
+.txtFontcss {
   position: absolute;
   width: 370px;
   height: 194px;
@@ -671,7 +679,7 @@
   border-radius: 15px 15px 0px 0px;
 }
 
-.ds2_js_nd4{
+.imgCss {
   position: absolute;
   width: 198px;
   height: 123px;
@@ -685,7 +693,7 @@
   color: #FFFFFF;
 }
 
-.ds2_nd4{
+.txtCsstual {
   position: absolute;
   width: 155px;
   height: 40px;
@@ -700,7 +708,7 @@
   color: #B2D235;
 }
 
-.ds2_nd_4{
+.txtCssdev {
   position: absolute;
   width: 294px;
   height: 42px;
@@ -716,7 +724,7 @@
   color: #505353;
 }
 
-.ds2_bt_4{
+.btnCsstake {
   position: absolute;
   width: 200px;
   height: 42px;
@@ -727,7 +735,7 @@
   border-radius: 22px;
 }
 
-.ds2_nd_bt4{
+.txtCsstake {
   position: absolute;
   width: 180px;
   height: 20px;
@@ -742,7 +750,7 @@
   color: #FFFFFF;
 }
 
-.ds3{
+.txtRubylist {
   position: absolute;
   width: 370px;
   height: 395px;
@@ -753,7 +761,7 @@
   border-radius: 15px;
 }
 
-.ds3_js5{
+.txtRubyfont {
   position: absolute;
   width: 370px;
   height: 194px;
@@ -763,7 +771,7 @@
   border-radius: 15px 15px 0px 0px;
 }
 
-.ds3_js_nd5{
+.imgRuby {
   position: absolute;
   width: 198px;
   height: 123px;
@@ -777,7 +785,7 @@
   color: #FFFFFF;
 }
 
-.ds3_nd5{
+.txtRubytual {
   position: absolute;
   width: 256px;
   height: 37px;
@@ -792,7 +800,7 @@
   color: #B2D235;
 }
 
-.ds3_nd_5{
+.txtRubydev {
   position: absolute;
   width: 294px;
   height: 42px;
@@ -808,7 +816,7 @@
   color: #505353;
 }
 
-.ds3_bt_5{
+.btnRuby {
   position: absolute;
   width: 200px;
   height: 42px;
@@ -819,7 +827,7 @@
   border-radius: 22px;
 }
 
-.ds3_nd_bt5{
+.txtRubytake {
   position: absolute;
   width: 180px;
   height: 20px;
@@ -834,7 +842,7 @@
   color: #FFFFFF;
 }
 
-.ds4{
+.txtJavalist {
   position: absolute;
   width: 370px;
   height: 395px;
@@ -845,7 +853,7 @@
   border-radius: 15px;
 }
 
-.ds4_js6{
+.txtJavafont {
   position: absolute;
   width: 370px;
   height: 194px;
@@ -855,7 +863,7 @@
   border-radius: 15px 15px 0px 0px;
 }
 
-.ds4_js_nd6{
+.imgJava {
   position: absolute;
   width: 258px;
   height: 159px;
@@ -869,7 +877,7 @@
   color: #FFFFFF;
 }
 
-.ds4_nd6{
+.txtJavatual {
   position: absolute;
   width: 158px;
   height: 37px;
@@ -884,7 +892,7 @@
   color: #B2D235;
 }
 
-.ds4_nd_6{
+.txtJavadev {
   position: absolute;
   width: 294px;
   height: 42px;
@@ -900,7 +908,7 @@
   color: #505353;
 }
 
-.ds4_bt_6{
+.btnJava {
   position: absolute;
   width: 200px;
   height: 42px;
@@ -911,7 +919,7 @@
   border-radius: 22px;
 }
 
-.ds4_nd_bt6{
+.txtJavatake {
   position: absolute;
   width: 180px;
   height: 20px;
@@ -926,7 +934,7 @@
   color: #FFFFFF;
 }
 
-.view{
+.txtView {
   position: absolute;
   height: 49px;
   width: 366px;
@@ -942,7 +950,7 @@
   color: #90AB26;
 }
 
-.muiten{
+.bntMten {
   position: absolute;
   width: 48px;
   height: 26.08px;
@@ -950,7 +958,7 @@
   top: 2165px;
 }
 
-.fon_den{
+.txtFontlap {
   position: absolute;
   width: 1440px;
   height: 633px;
@@ -958,7 +966,7 @@
   top: 2280px;
 }
 
-.laptop{
+.txtLaptop {
   position: absolute;
   width: 792px;
   height: 544px;
@@ -967,7 +975,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.why{
+.txtWhy {
   position: absolute;
   width: 560px;
   height: 102px;
@@ -983,7 +991,7 @@
   color: #FFFFFF;
 }
 
-.tich1{
+.imgOne {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -999,7 +1007,7 @@
   color: #FFFFFF;
 }
 
-.fon_chu1{
+.txtOne {
   position: absolute;
   width: 490px;
   height: 25px;
@@ -1014,7 +1022,7 @@
   color: #FFFFFF;
 }
 
-.tich2{
+.imgTwo {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -1030,7 +1038,7 @@
   color: #FFFFFF;
 }
 
-.fon_chu2{
+.txtTwo {
   position: absolute;
   width: 490px;
   height: 25px;
@@ -1045,7 +1053,7 @@
   color: #FFFFFF;
 }
 
-.tich3{
+.imgThree {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -1061,7 +1069,7 @@
   color: #FFFFFF;
 }
 
-.fon_chu3{
+.txtThree {
   position: absolute;
   width: 490px;
   height: 25px;
@@ -1076,7 +1084,7 @@
   color: #FFFFFF;
 }
 
-.tich4{
+.imgFour {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -1092,7 +1100,7 @@
   color: #FFFFFF;
 }
 
-.fon_chu4{
+.txtFour {
   position: absolute;
   width: 490px;
   height: 25px;
@@ -1107,7 +1115,7 @@
   color: #FFFFFF;
 }
 
-.tich5{
+.imgFive {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -1123,7 +1131,7 @@
   color: #FFFFFF;
 }
 
-.fon_chu5{
+.txtFive {
   position: absolute;
   width: 490px;
   height: 25px;
@@ -1138,7 +1146,7 @@
   color: #FFFFFF;
 }
 
-.feed{
+.txtFeedback {
   position: absolute;
   width: 334px;
   height: 98px;
@@ -1152,7 +1160,8 @@
   letter-spacing: -0.02em;
   color: #11114E;
 }
-.f1{
+
+.btnFeed {
   position: absolute;
   width: 316px;
   height: 6px;
@@ -1162,7 +1171,7 @@
   border-radius: 3px;
 }
 
-.text_feed{
+.txtFeed {
   position: absolute;
   width: 705px;
   height: 71px;
@@ -1178,37 +1187,7 @@
   color: #505353;
 }
 
-.chat2_bt{
-  position: absolute;
-  width: 575px;
-  height: 164px;
-  top: 3225px;
-  left: 700px;
-  border-radius: 10px;
-  border: 0.5px;
-  background: #FFF;
-}
-
-.chat2_bt_text2{
-  top: 30px;
-  left: 60px;
-  position: absolute;
-  width: 450px; 
-  height: 89px;
-  font-family: UTM BryantLG;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: -0.05em;
-  text-align: left; 
-  flex-direction: column;
-  flex-shrink: 0;
-  color: #000;
-  font-size: 16px;
-  font-family: UTM BryantLG;
-  letter-spacing: -0.8px;
-}
-
-.chat1_bt{
+.imgFontchatOne { 
   position: absolute;
   width: 575px;
   height: 164px;
@@ -1219,7 +1198,7 @@
   background: #FFF;
 }
 
-.chat1_bt_text1{
+.txtChatone {
   top: 30px;
   left: 60px;
   position: absolute;
@@ -1238,7 +1217,7 @@
   letter-spacing: -0.8px;
 }
 
-.chat1_bt_nut1{
+.btnOnelist {
   position: absolute;
   top: 3260px;
   left: 130px;
@@ -1248,7 +1227,45 @@
   background: #D9DADC;
 }
 
-.chat2_bt_nut1{
+.imgOnebut {
+  position: absolute;
+  top: 3280px;
+  left: 95px;
+  width: 5px;
+  height: 108px;
+}
+
+.imgFontchattwo {
+  position: absolute;
+  width: 575px;
+  height: 164px;
+  top: 3225px;
+  left: 700px;
+  border-radius: 10px;
+  border: 0.5px;
+  background: #FFF;
+}
+
+.txtChattwo {
+  top: 30px;
+  left: 60px;
+  position: absolute;
+  width: 450px; 
+  height: 89px;
+  font-family: UTM BryantLG;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.05em;
+  text-align: left; 
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 16px;
+  font-family: UTM BryantLG;
+  letter-spacing: -0.8px;
+}
+
+.btnTwolist {
   position: absolute;
   width: 5px;
   height: 108px;
@@ -1257,15 +1274,7 @@
   background: #D9DADC;
 }
 
-.c1_nut2{
-  position: absolute;
-  top: 3280px;
-  left: 95px;
-  width: 5px;
-  height: 108px;
-}
-
-.chat2_bt_nut2{
+.imgTwobut {
   position: absolute;
   top: 3280px;
   left: 1265px;
@@ -1273,7 +1282,7 @@
   height: 108px;
 }
 
-.bl_1{
+.imgFontOne {
   position: absolute;
   width: 60px;
   height: 60px;
@@ -1282,7 +1291,77 @@
   border-radius: 60px;
 }
 
-.bl_2{
+.txtOnedev {
+  position: absolute;
+  top: 3400px;
+  left: 210px;
+  display: flex;
+  width: 177px;
+  height: 23px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #11114E;
+  font-size: 20px;
+  font-family: UTM BryantLG;
+  font-weight: 700;
+}
+
+.txtOnephp {
+  display: flex;
+  position: absolute;
+  top: 3425px;
+  left: 210px;
+  width: 59px;
+  height: 19px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #505353;
+  font-size: 16px;
+  font-family: UTM BryantLG;
+  font-weight: 700;
+}
+
+.imgOneStartone {
+  position: absolute;
+  top: 3460px;
+  left: 210px;
+  width: 16px;
+  height: 16px; 
+}
+
+.imgOneStartwo {
+  position: absolute;
+  top: 3460px;
+  left: 230px;
+  width: 14px;
+  height: 16px; 
+}
+
+.imgOneStarthree {
+  position: absolute;
+  top: 3460px;
+  left: 250px;
+  width: 14px;
+  height: 16px; 
+}
+
+.imgOneStartfour {
+  position: absolute;
+  top: 3460px;
+  left: 270px;
+  width: 14px;
+  height: 16px; 
+}
+
+.imgOneStartfive {
+  position: absolute;
+  top: 3460px;
+  left: 290px;
+  width: 14px;
+  height: 16px; 
+}
+
+.imgFonttwo {
   position: absolute;
   width: 60px;
   height: 60px;
@@ -1291,77 +1370,7 @@
   border-radius: 60px;
 }
 
-.bl_1_ten1{
-  position: absolute;
-  top: 3400px;
-  left: 210px;
-  display: flex;
-  width: 177px;
-  height: 23px;
-  flex-direction: column;
-  flex-shrink: 0;
-  color: #11114E;
-  font-size: 20px;
-  font-family: UTM BryantLG;
-  font-weight: 700;
-}
-
-.bl_1_kn1{
-  display: flex;
-  position: absolute;
-  top: 3425px;
-  left: 210px;
-  width: 59px;
-  height: 19px;
-  flex-direction: column;
-  flex-shrink: 0;
-  color: #505353;
-  font-size: 16px;
-  font-family: UTM BryantLG;
-  font-weight: 700;
-}
-
-.bl_1_ha1{
-  position: absolute;
-  top: 3460px;
-  left: 210px;
-  width: 16px;
-  height: 16px; 
-}
-
-.bl_1_ha2{
-  position: absolute;
-  top: 3460px;
-  left: 230px;
-  width: 14px;
-  height: 16px; 
-}
-
-.bl_1_ha3{
-  position: absolute;
-  top: 3460px;
-  left: 250px;
-  width: 14px;
-  height: 16px; 
-}
-
-.bl_1_ha4{
-  position: absolute;
-  top: 3460px;
-  left: 270px;
-  width: 14px;
-  height: 16px; 
-}
-
-.bl_1_ha5{
-  position: absolute;
-  top: 3460px;
-  left: 290px;
-  width: 14px;
-  height: 16px; 
-}
-
-.bl_2_ten2{
+.txtTwodev {
   position: absolute;
   top: 3400px;
   left: 810px;
@@ -1376,7 +1385,7 @@
   font-weight: 700;
 }
 
-.bl_2_kn2{
+.txtTwopython {
   display: flex;
   position: absolute;
   top: 3425px;
@@ -1391,15 +1400,7 @@
   font-weight: 700;
 }
 
-.bl_2_ha1{
-  position: absolute;
-  top: 3460px;
-  left: 810px;
-  width: 16px;
-  height: 16px; 
-}
-
-.bl_2_ha2{
+.imgTwoStartone {
   position: absolute;
   top: 3460px;
   left: 830px;
@@ -1407,7 +1408,15 @@
   height: 16px; 
 }
 
-.bl_2_ha3{
+.imgTwoStarttwo {
+  position: absolute;
+  top: 3460px;
+  left: 810px;
+  width: 16px;
+  height: 16px; 
+}
+
+.imgTwoStartthree {
   position: absolute;
   top: 3460px;
   left: 850px;
@@ -1415,7 +1424,7 @@
   height: 16px; 
 }
 
-.bl_2_ha4{
+.imgTwoStartfour {
   position: absolute;
   top: 3460px;
   left: 870px;
@@ -1423,7 +1432,7 @@
   height: 16px; 
 }
 
-.bl_2_ha5{
+.imgTwoStartfive {
   position: absolute;
   top: 3460px;
   left: 890px;
@@ -1432,7 +1441,7 @@
   
 }
 
-.bl_2_ha6{
+.imgTwoStartsix {
   position: absolute;
   top: 3460px;
   left: 890px;
@@ -1440,7 +1449,7 @@
   height: 16px; 
 }
 
-.become{
+.imgBecome {
   height: 500px;
   width: 1440px;
   left: 1px;
@@ -1449,7 +1458,7 @@
   position: absolute;
 }
 
-.be_text{
+.txtBecome {
   position: absolute;
   top: 50px;
   left: 370px;
@@ -1466,7 +1475,7 @@
   letter-spacing: -1.2px;
 }
 
-.bt_become{
+.btnBecome {
   position: absolute;
   top: 3880px;
   left: 530px;
@@ -1477,7 +1486,7 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
-.bt_become_text{
+.txtStart {
   position: absolute;
   top: 15px;
   left: 65px;
@@ -1490,7 +1499,7 @@
   letter-spacing: -1.5px;
 }
 
-.start{
+.txtStat {
   width: 279px;
   height: 98px;
   top: 4100px;
@@ -1504,7 +1513,7 @@
   letter-spacing: -1.6px;
 }
 
-.start_1{
+.btnStat {
   position: absolute;
   width: 257px;
   height: 6px;
@@ -1514,7 +1523,7 @@
   background: #B2D235;
 }
 
-.text_1{
+.txtCour { 
   width: 200px;
   height: 74px;
   top: 4300px;
@@ -1527,7 +1536,7 @@
   letter-spacing: -3px;
 }
 
-.text_2{
+.txtLess {
   width: 200px;
   height: 74px;
   top: 4300px;
@@ -1540,7 +1549,7 @@
   letter-spacing: -3px;
 }
 
-.text_3{
+.txLearn {
   width: 200px;
   height: 74px;
   top: 4300px;
@@ -1553,7 +1562,7 @@
   letter-spacing: -3px;
 }
 
-.so_1{
+.txtListCour {
   width: 141px;
   height: 74px;
   top: 4400px;
@@ -1566,7 +1575,7 @@
   letter-spacing: -3px;
 }
 
-.so_2{
+.txtListless {
   width: 141px;
   height: 74px;
   top: 4400px;
@@ -1579,7 +1588,7 @@
   letter-spacing: -3px;
 }
 
-.so_3{
+.txtListlearn {
   width: 141px;
   height: 74px;
   top: 4400px;
@@ -1592,7 +1601,7 @@
   letter-spacing: -3px;
 }
 
-.foot_bt{
+.txtFontfoot {
   position: absolute;
   height: 330px;
   width: 1440px;
@@ -1602,7 +1611,7 @@
   background: #505353;
 }
 
-.hapo2{
+.imgHapotwo {
   position: absolute;
   width: 292px;
   height: 60px;
@@ -1611,7 +1620,7 @@
 
 }
 
-.hapo2_text{
+.txtHapotwo {
   position: absolute;
   width: 249px;
   height: 50px;
@@ -1623,7 +1632,7 @@
   letter-spacing: -1px;
 }
 
-.home_foot{
+.txtHomefoot {
   position: absolute;
   width: 51px;
   height: 25px;
@@ -1637,7 +1646,7 @@
   text-align: left;
 }
 
-.fear{
+.txtFeatfoot {
   position: absolute;
   width: 71px;
   height: 25px;
@@ -1653,7 +1662,7 @@
   letter-spacing: -1px;
 }
 
-.cour{
+.txtCourfoot {
   position: absolute;
   width: 67px;
   height: 25px;
@@ -1666,7 +1675,7 @@
   letter-spacing: -1px;
 }
 
-.blog{
+.txtBlogfoot {
   position: absolute;
   width: 38px;
   height: 25px;
@@ -1679,7 +1688,7 @@
   letter-spacing: -1px;
 }
 
-.ct{
+.txtContfoot {
   position: absolute;
   width: 65px;
   height: 25px;
@@ -1692,7 +1701,7 @@
   letter-spacing: -1px;
 }
 
-.teruse{
+.txtTermfoot {
   position: absolute;
   width: 111px;
   height: 25px;
@@ -1705,7 +1714,7 @@
   letter-spacing: -1px;
 }
 
-.faq{
+.txtFaq {
   position: absolute;
   width: 40px;
   height: 25px;
@@ -1718,7 +1727,7 @@
   letter-spacing: -1px;
 }
 
-.gr3{
+.imgFace {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -1727,7 +1736,7 @@
   flex-shrink: 0;
 }
 
-.gr5{
+.imgPhone {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -1736,7 +1745,7 @@
   flex-shrink: 0;
 }
 
-.gr4{
+.imgMail {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -1745,7 +1754,7 @@
   flex-shrink: 0;
 }
 
-.link{
+.txtLinkHapo {
   position: absolute;
   width: 286px;
   height: 25px;
@@ -1759,7 +1768,7 @@
 
 }
 
-.foot_pass{
+.txtFootpass {
   position: absolute;
   width: 1440px;
   height: 38px;
@@ -1767,7 +1776,7 @@
   background: #454545;
 }
 
-.fpass_text{
+.txtPass {
   position: absolute;
   width: 266px;
   height: 18px;
