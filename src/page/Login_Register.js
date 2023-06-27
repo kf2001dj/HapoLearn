@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "../components/UI/Navbar";
 
 function Login_Register(){
     return(
-        <div>
-          
+        <div className="Web">
+            <Navbar/>
         </div>
     )
 }

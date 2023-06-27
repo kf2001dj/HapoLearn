@@ -1,9 +1,12 @@
 import React from "react";
+import Navbar from "../components/UI/Navbar";
 
 function Allcourses(){
     return(
-        <div>
-           
+        <div className="Web">
+            <Navbar/>
+            
+          
         </div>
     )
 }
