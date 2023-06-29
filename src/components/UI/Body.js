@@ -1,3 +1,4 @@
+import './Body.css';
 export default function Body() {
     return(
         <div className="Body">
@@ -17,9 +18,9 @@ export default function Body() {
                     </button>
                     <div>
                     <div className='txtFont'></div>
-                        {/* <div className='btnMeschat'>
+                        <div className='btnMeschat'>
                             <img src='./image/Group 8.png'></img>
-                        </div> */}
+                        </div>
                     </div>
                     <div className="Chatbox">
                         <div className='imgCu'><img src='./image/Ellipse 7.png'></img></div>

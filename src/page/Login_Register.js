@@ -1,10 +1,12 @@
 import React from "react";
 import Navbar from "../components/UI/Navbar";
-
+import Footer from "../components/UI/Footer";
 function Login_Register(){
     return(
-        <div className="Web">
+        <div>
             <Navbar/>
+
+            <Footer/>
         </div>
     )
 }

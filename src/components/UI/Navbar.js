@@ -1,4 +1,4 @@
-
+import './Navbar.css';
 export default function Navbar() {
     function handleClick() {
         console.log('Hello')

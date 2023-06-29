@@ -1,0 +1,13 @@
+.navbar-nav {
+    margin-left: auto; 
+}
+
+.imgHapo {
+    height: 50px;
+    margin-right: auto;
+    transform: translateY(1px);
+}
+
+.navbar {
+    height: 90px;
+}
