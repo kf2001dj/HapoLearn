@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../components/UI/Navbar";
-import Footer from "../components/UI/Footer";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 function Login_Register(){
     return(
         <div>

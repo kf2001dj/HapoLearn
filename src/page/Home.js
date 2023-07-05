@@ -1,14 +1,14 @@
 import React from "react";
-import Navbar from "../components/UI/Navbar";
-import Body from "../components/UI/Body";
-import Footer from "../components/UI/Footer";
+import Navbar from "../components/Navbar/Navbar";
+import Body from "../components/Body/Body";
+import Footer from "../components/Footer/Footer";
 
 export default function Home(){
     return(
-        <div className="Web">
+        <div>
             <Navbar/>
             <Body/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 }

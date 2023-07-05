@@ -1,46 +1,52 @@
-import './Body.css';
+import '../Body/Body.css';
+import React from 'react';
 export default function Body() {
     return(
-        <div className="Body">
+        <div className="conatiner body">
                 <div className='body-header'>
                     <img src='./image/Hapo_Learn_banner 1.png' className="imgHapoLearn" ></img>
-                    <div class="txtLearn">
-                            <p>Learn Anytime, Anywhere </p>
-                    </div>
-                    <div class="imgAthapo">
-                            <p>at HapoLearn <img className="imgCuHapo" src='./image/Group 6.png'></img> !</p> 
-                    </div>
-                    <div class="txtInter">
-                            <p> Interactive lessons, "on-the-go"  practice, peer support. </p>
-                    </div>
-                    <button class="btnStart">
-                        <a href="/"> <p className='txtStart'>Start Learning Now! </p></a>
-                    </button>
-                    <div>
+                        <div className='fontheadHapo'>
+                            <div class="txtLearn">
+                                    <p>Learn Anytime, Anywhere </p>
+                            </div>
+                            <div class="imgAthapo">
+                                    <p>at HapoLearn <img className="imgCuHapo" src='./image/Group 6.png'></img> !</p> 
+                            </div>
+                            <div class="txtInter">
+                                    <p> Interactive lessons, "on-the-go"  practice, peer support. </p>
+                            </div>
+                            <button class="btnStart">
+                                <a href="/"> <p className='txtStart'>Start Learning Now! </p></a>
+                            </button>
+                        </div> 
                     <div className='txtFont'></div>
-                        <div className='btnMeschat'>
-                            <img src='./image/Group 8.png'></img>
-                        </div>
+                    <div className='btnMeschat'>
+                        <img src='./image/Group 8.png'></img>
                     </div>
-                    <div className="Chatbox">
-                        <div className='imgCu'><img src='./image/Ellipse 7.png'></img></div>
-                        <div className='txtHapo'><p>HapoLearn</p></div>
-                        <div className='btnEx'><img src='./image/Exclude.png'></img></div>   
-                         <div className='fontHe'>
-                            <p className='txtHe'>
-                            HapoLearn xin chào bạn. <br></br>
-                            Bạn có cần chúng tôi hỗ trợ gì không? 
-                            </p>
+
+                        <div className="Chatbox">
+                            <div className='imgCu'><img src='./image/Ellipse 7.png'></img></div>
+                            <div className='txtHapo'><p>HapoLearn</p></div>
+                            <div className='btnEx'><img src='./image/Exclude.png'></img></div>   
+                            <div className='fontHe'>
+                                <p className='txtHe'>
+                                HapoLearn xin chào bạn. <br></br>
+                                Bạn có cần chúng tôi hỗ trợ gì không? 
+                                </p>
+                            </div>
+                            <button className='btnMes'>
+                                    <a href="/"> 
+                                        <div className='imgVec'><img src='./image/Vector.png'></img></div>
+                                        <p className='txtMes'>Đăng nhập vào Messenger</p>
+                                    </a>
+                            </button>
+                            <div className='txtChatmes'><p>Chat với HapoLearn trong Messenger</p></div>
+                            </div> 
                         </div>
-                        <button className='btnMes'>
-                            <a href="/"> 
-                                <div className='imgVec'><img src='./image/Vector.png'></img></div>
-                                <p className='txtMes'>Đăng nhập vào Messenger</p>
-                            </a>
-                        </button>
-                        <div className='txtChatmes'><p>Chat với HapoLearn trong Messenger</p></div>
-                    </div> 
-                </div> 
+                    <div>
+                </div>   
+                
+{/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */}
                 <div class="container Listconten pt-3 text-center">
                     <div class="row">
                         <div class="col-md-4 Listbox">
@@ -48,7 +54,6 @@ export default function Body() {
                                 <div className="itemHtml ">
                                     <img src="./image/Rectangle 7.png" className="imgHtml" alt="Html" />
                                 </div>
-                               
                                     <p className="Playheading">HTML/CSS/js Tutorial</p>
                                     <p className="Playtime">
                                         I knew hardly anything about HTML, JS, and CSS
@@ -59,16 +64,13 @@ export default function Body() {
                                     <button class="btnTake">
                                         <a href="/"> <p className='txtTake'>Take This Course </p></a>
                                     </button>
-                               
                             </div>
-                        
                         </div>
                         <div class="col-md-4 Listbox">
                            <div className="ListLava">
                                 <div className="itemLava">
                                     <img src="./image/laravel-1-logo-black-and-white 1.png" className="imgLava" alt="Laravel" />
                                 </div>
-                                
                                     <p className="Playheading">LARAVEL Tutorial</p>
                                     <p className="Playtime">
                                         I knew hardly anything about HTML, JS, and CSS
@@ -79,7 +81,6 @@ export default function Body() {
                                     <button class="btnTake">
                                         <a href="/"> <p className='txtTake'>Take This Course </p></a>
                                     </button>
-                                
                            </div>
                         </div>
                         <div class="col-md-4 Listbox ">
@@ -101,16 +102,14 @@ export default function Body() {
                         </div>
                     </div>
                 </div>
-                
-               
-              
-                
+ {/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */}
                 <div className="container ListOther">
                     <div className='txtOther'>
                         <p>Other courses</p>
                     </div>
-                     <div className='fontOther'></div>  
-                </div>
+                </div>   
+
+                 <div className='fontOther'></div> 
                  <div class="container ListSours pt-3 text-center">
                     <div class="row">
                         <div class="col-md-4 Listbox">
@@ -166,6 +165,7 @@ export default function Body() {
                         </div>
                     </div>
                 </div>
+ {/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */}
                 <div className="container ListOur">
                     <div className='txtOur'>
                         <p> View All Our Courses <></>
@@ -202,13 +202,13 @@ export default function Body() {
                     <div className='txtFee'>
                         <p>Feedback </p>
                     </div>
-                    <div className="FontFeed"></div>
-                    <div className="txtFeed">
-                        <p>
+                </div> 
+                <div className="FontFeed"></div>
+                <div className="txtFeed">
+                    <p>
                         What other students turned professionals have to say about us
                         after learning with us and reaching their goals
-                        </p>
-                    </div>
+                    </p>       
                 </div>
                 <div class="container cmtList">
                     <div class="row cmtFont">
@@ -260,14 +260,21 @@ export default function Body() {
                 </div>
                 <div className="container Statistic">
                     <div className='txtStat'><p>Statistic</p></div>
-                    <div className='btnStat'></div>
+                   
+                  
+                </div>   
+                <div className='btnStat'></div>  
+                <div className='container listdiem'>
                     <div className='txtCour'><p>Courses</p></div>
                     <div className='txtLess'><p>Lessons</p></div>
                     <div className='footLearn'><p>Learners</p></div>
+                </div>
+                <div className='container listsodiem'>
                     <div className='txtListCour'><p>1,586</p></div>
                     <div className='txtListless'><p>2,689</p></div>
                     <div className='txtListlearn'><p>16,882</p></div>
                 </div>
+                
             </div> 
     );
 }
