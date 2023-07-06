@@ -16,12 +16,12 @@
     width: 100%;
     max-width: 100vw;
     height: auto;
-    z-index: 1;
 }
 
 .imgHapoLearn {
   width: 100%;
   height: auto;
+  margin: auto;
 }
 
   /* bên dưới cần scss cho nhanh hơn */
@@ -73,12 +73,12 @@
 }
   
 .txtFont {
-  margin-top: 230px;
+  padding-top: 380px;
   max-width: 100vw;
+  width: 100%;
   height: 150px;
-  background-color: #dedbdbfc ;
-  background-size: cover;
-  background-position: center;
+  background-color: #e5dedefc;
+
 }
 
 .btnMeschat {
@@ -200,8 +200,7 @@
   
 .Listconten {
     margin-top: -100px;
-    margin-left: auto;
-    
+    margin-left: 70px;
 }
   
 .row {
@@ -344,6 +343,7 @@
   
 .ListSours {
   margin-top: 30px;
+  margin-left: 70px;
 }
   
 .imgCSS {

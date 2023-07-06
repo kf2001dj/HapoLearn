@@ -7,23 +7,22 @@ export default function Body() {
                     <img src='./image/Hapo_Learn_banner 1.png' className="imgHapoLearn" ></img>
                         <div className='fontheadHapo'>
                             <div class="txtLearn">
-                                    <p>Learn Anytime, Anywhere </p>
+                                <p>Learn Anytime, Anywhere </p>
                             </div>
                             <div class="imgAthapo">
-                                    <p>at HapoLearn <img className="imgCuHapo" src='./image/Group 6.png'></img> !</p> 
+                                <p>at HapoLearn <img className="imgCuHapo" src='./image/Group 6.png'></img> !</p> 
                             </div>
                             <div class="txtInter">
-                                    <p> Interactive lessons, "on-the-go"  practice, peer support. </p>
+                                <p> Interactive lessons, "on-the-go"  practice, peer support. </p>
                             </div>
                             <button class="btnStart">
                                 <a href="/"> <p className='txtStart'>Start Learning Now! </p></a>
                             </button>
                         </div> 
-                    <div className='txtFont'></div>
-                    <div className='btnMeschat'>
+                        <div className='txtFont'></div>
+                        <div className='btnMeschat'>
                         <img src='./image/Group 8.png'></img>
-                    </div>
-
+                        </div>
                         <div className="Chatbox">
                             <div className='imgCu'><img src='./image/Ellipse 7.png'></img></div>
                             <div className='txtHapo'><p>HapoLearn</p></div>
@@ -46,6 +45,7 @@ export default function Body() {
                     <div>
                 </div>   
                 
+               
 {/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */}
                 <div class="container Listconten pt-3 text-center">
                     <div class="row">
@@ -108,9 +108,8 @@ export default function Body() {
                         <p>Other courses</p>
                     </div>
                 </div>   
-
-                 <div className='fontOther'></div> 
-                 <div class="container ListSours pt-3 text-center">
+                <div className='fontOther'></div> 
+                <div class="container ListSours pt-3 text-center">
                     <div class="row">
                         <div class="col-md-4 Listbox">
                             <div className="ListHtml">

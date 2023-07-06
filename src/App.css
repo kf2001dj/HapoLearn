@@ -59,6 +59,9 @@
         background: #B2D235;
     }
     /*body*/
+    .body {
+        height: 3000px;
+    }
 
     .fontheadHapo {
         position: relative;
@@ -97,8 +100,8 @@
     }
 
     .txtFont {
-        margin-top: 100px;
+        margin-top: -150px;
     }
-    
+
    
 }
