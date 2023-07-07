@@ -5,6 +5,29 @@
     margin-left:  15px;
 }
 
+.btnallcour {
+    padding-top: 9px;
+    margin-top: 4px;
+    width: 128px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background: #B2D235;
+}
+
+.txtallcour {
+    text-align: center;
+    color: #FEFFFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
 
 /* xoá  đường viền */
 .navbar-toggler {

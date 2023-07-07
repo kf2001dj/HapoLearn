@@ -1,13 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
+import Body_Profile from "../components/Profile/Body_Profile";
+
+
 function Profile(){
     return(
-        <div>
+        <div className="backcolo">
             <Navbar/>
-
-            <Footer/>
-        </div>
+            <Body_Profile/>
+           
+        </div>  
     );
 }
 export default Profile;

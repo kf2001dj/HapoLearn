@@ -7,7 +7,7 @@
     width: 552px;
     height: 711px;
     flex-shrink: 0;
-    background: #dad6d6;
+    background: #FFF;
     margin-top: 50px;
 }
 
@@ -144,7 +144,7 @@
 
 .btnGoogle {
     margin-top: 10px;
-    margin-left: -60px;
+    margin-left: -65px;
     width: 430px;
     height: 56px;
     border-radius: 22px;
@@ -198,7 +198,7 @@
 
 .btnCreat {
     margin-top: 20px;
-    margin-left: -60px;
+    margin-left: -65px;
     width: 430px;
     height: 55px;
     border-radius: 22px;
@@ -207,7 +207,7 @@
 }
 
 .txtCreate {
-    padding: 12px;
+    padding: 15px;
     color: #FFF;
     font-family: Arial;
     font-size: 22px;
@@ -215,3 +215,4 @@
     font-weight: 400;
     line-height: normal;
 }
+

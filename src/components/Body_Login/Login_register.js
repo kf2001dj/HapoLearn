@@ -1,6 +1,8 @@
 import './Login_register.css';
+
 export default function Login_register(){
     return(
+   
         <div className='body-login'>
             <div className='container text-center login_signinHapo'>
                 <div className='row'>
@@ -21,7 +23,7 @@ export default function Login_register(){
                                 </a>
                             </button>
                             <div className='forgot'>
-                                <a href='#'>
+                                <a href='/resetpassword'>
                                    <p className='txtForgot'>
                                     Forgot password
                                     </p> 
@@ -37,16 +39,18 @@ export default function Login_register(){
                             <div className='btnNew'></div>
                             <div className='btnNew2'></div>
                             <p className='txtOr'>or New to HapoLearn</p>
-                            <button className='btnCreat'>
-                                <a href='/up'>
-                                    <p className='txtCreate'> Create New Account</p>
-                                </a>
-                            </button>
+
+                            <a href='/signup' className='txtCreate btnCreat' type='button'>
+                                Create New Account
+                            </a>
+                          
                         </form>
                     </div>
                 </div>
             </div>
         </div>
+       
+
     )
 
 }

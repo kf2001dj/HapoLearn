@@ -24,7 +24,7 @@ export default function Navbar() {
                   <a class="nav-link active" aria-current="page" href="/">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/allcourses">ALL COURSES</a>
+                  <a class="nav-link txtallcour btnallcour" href="/allcourses" type='button'>ALL COURSES</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/loginregister">LOGIN/REGISTER</a>
