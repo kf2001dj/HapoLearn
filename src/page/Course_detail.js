@@ -2,15 +2,16 @@ import React from "react";
 
 import Navbar from "../components/Navbar/Navbar";
 
-import Sign_Up from "../components/SignUp/Sign_Up";
+import Course from "../components/Course/Course";
 
 import Footer from "../components/Footer/Footer";
-export default function SignUp()
+
+export default function Course_detail()
 {
     return(
-        <div className="backcolo">
+        <div className="backpass">
             <Navbar/>
-            <Sign_Up/>
+            <Course/>
             <Footer/>
         </div>
 

@@ -1,0 +1,292 @@
+.head-page-course {
+    width: 100vw;
+    height: 50px;
+    background: #E9E7E7;
+    padding-top: 16px;
+    padding-left: 100px;
+}
+
+.head-page-course  p{
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+.btn-head-page {
+    margin-top: -33px;
+    margin-left: 45px;
+  
+}
+
+.head-page-allcour {
+    display: flex;
+    margin-top: -35px;
+    margin-left: 60px;
+}
+
+.btn-head-page-all {
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+.head-page-cour {
+    display: flex;
+    margin-top: -35px;
+    margin-left: 150px;
+}
+
+.body-page-course {
+    /* background: #0dc6c6; */
+    width: 1320px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.body-page-head {
+    margin-top: 30px;
+    margin-left: -11px;
+}
+
+.imgpage-html {
+    margin-left: 40px;
+    width: 900px;
+    height: 490px;
+    border-radius: 10px;
+    background: #3F6185;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.img-html-body {
+    width: 496px;
+    height: 285px;
+}
+.des-cours {
+    margin-left: 85px;
+    width: 350px;
+    height: 490px;
+    border: 1px solid #D1D1D1;
+    background: #FFF;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.txtdes-cours {
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.btndes-cours {
+    width: 310px;
+    height: 1px;
+    background: #B2D235;
+}
+
+.txtlearn-des {
+    margin-top: 15px;
+    width: 310px;
+    height: 343px;
+    color: #949292;
+    text-align: justify;
+    font-family: UTM BryantLG;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+}
+
+/* learn */
+.coures-learn-devlist {
+    margin-left: 40px;
+    width: 900px;
+    height: 1542px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.des-cours-gr {
+    margin-top: 1px;
+    margin-left: 85px;
+    width: 350px;
+    height: 490px;
+    border: 1px solid #D1D1D1;
+    background: #FFF;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.des-cours-list {
+    margin-top: 30px;
+    margin-left: 85px;
+    width: 350px;
+    height:  500px;
+    border: 1px solid #D1D1D1;
+    background: #FFF;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.txt3hs {
+    margin-left: 50px ;
+    margin-top: -30px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.txtlearn-cour{
+    margin-left: 150px ;
+    margin-top: -44px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.solearn-cour {
+    margin-left: 180px ;
+    margin-top: -44px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.btn-courn-solearn {
+    margin-top: 30px;
+    width: 310px;
+    height: 1px;
+    background: #D1D1D1;
+}
+
+.magin-cours-one {
+    margin-top: 30px;
+}
+
+
+.solearn-cour-code {
+    margin-left: 180px ;
+    margin-top: -44px;
+    color: #5D8BD0;
+    font-family: UTM BryantLG;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+/* list2 */
+
+.cours-oth {
+    margin-top: -21px;
+    margin-left: -21px;
+    width: 350px;
+    height: 60px;
+    border: 1px solid #DEDEDE;
+    background: #B2D235;
+    padding-top: 15px;
+    padding-left: 100px;
+
+}
+
+.txtcours-oth {
+    color: #FFF;
+    font-family: UTM BryantLG;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.25px;
+}
+
+.oth-solist {
+    margin-top: 20px;
+    width: 12px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+.oht-txtlist {
+    margin-top: -35px;
+    margin-left: 30px;
+    width: 318px;
+    height: 41px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+.btn-oth-list {
+    width: 310px;
+    height: 1px;
+    background: #E2E0E0;
+}
+
+.btn-oth-list2 {
+    width: 310px;
+    height: 0.5px;
+    background: #E2E0E0;
+}
+
+.btn-oth-list3 {
+    margin-top: -20px;
+    width: 310px;
+    height: 0.5px;
+    background: #E2E0E0;
+}
+
+.btn-oth-foot {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 200px;
+    height: 42px;
+    border-radius: 22px;
+    background: #B2D235;
+    box-shadow: 0px 1.5px 2px 0px #6F8710 inset;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.oth-viewtxt {
+    color: #FFF;
+    font-family: UTM BryantLG;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}

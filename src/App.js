@@ -6,6 +6,7 @@ import Login_Register from './page/Login_Register';
 import Allcourses from './page/Allcourses';
 import SignUp from './page/SignUp';
 import Password from './page/Password';
+import Course_detail from './page/Course_detail';
 function App() {
   return (
     <Routes>
@@ -15,6 +16,7 @@ function App() {
           <Route path='/loginregister' element= {<Login_Register></Login_Register>} ></Route>
           <Route path='/signup' element= {<SignUp></SignUp>}></Route>
           <Route path='/resetpassword' element= {<Password></Password>}></Route>
+          <Route path='/course' element= {<Course_detail></Course_detail>}></Route>
     </Routes> 
  );
 

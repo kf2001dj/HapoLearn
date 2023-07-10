@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 
 import Pass from "../components/Password/Pass";
 
-import Footpass from "../components/Footer/Footpass";
+import Footer from "../components/Footer/Footer";
 
 export default function Password()
 {
@@ -12,7 +12,7 @@ export default function Password()
         <div className="backpass">
             <Navbar/>
             <Pass/>
-            <Footpass/>
+            <Footer/>
         </div>
 
 
