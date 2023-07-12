@@ -1,0 +1,14 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 4000,
+    "username": "root",
+    "password": "",
+    "database": "hapo",
+    "entities": ["src/entities/*.ts"],
+    "migrations": ["src/migrations/*.ts"],
+    "cli": {
+      "entitiesDir": "src/entities",
+      "migrationsDir": "src/migrations"
+    }
+  }
