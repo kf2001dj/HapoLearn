@@ -1,8 +1,8 @@
 import React ,{useState} from "react";
 import '../Course/Course.css';
-
-
-export default function Course()
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+export default function CourseTeacher()
 {
     const [selectedOption, setSelectedOption] = useState('');
 
@@ -10,6 +10,9 @@ export default function Course()
       setSelectedOption(option);
     };
     return(
+        <div className="backcolo-dev">
+        <Navbar></Navbar>
+        
         <div className="body-course">
             <div className="head-page-course">
                 <a href="/" className="head-page-home">
@@ -67,7 +70,7 @@ export default function Course()
 
                             </a>
                             <a
-                                href="/teacher"
+                                href="##"
                                 type='button'
                                 onClick={() => handleOptionClick('teacher')}
                                 className={selectedOption === 'teacher' ? 'selected ' : 'default'}
@@ -329,7 +332,7 @@ export default function Course()
                                 <div className="list-oth20"> 
                                     <div className="but-list-font"></div>
                                 </div> 
-                              
+                                {/* so trang */}
                                 <div className='list-dev-page'>
                                     <div class="row">
                                         <div class="col-md-12 cour-list-page">
@@ -370,7 +373,48 @@ export default function Course()
                                     <>
                                         <div className="but-cour-dev1"></div>
                                         <div className="but-teach-blu"></div>
+                                        <p className="txtmaindev">Main Teachers</p>
+                                        <div className="maindev-list">
+                                            <img src="./image/devmain.png"></img>
+                                            <p className="txtdev-id">Luu Trung Nghia </p>
+                                            <p className="txtdev-id2">Second Year Teacher</p>
+                                            <img src="./image/Ellipse 33.png" className="img-maindev-gg"></img>
+                                            <img src="./image/Ellipse 34.png" className="img-maindev-face"></img>
+                                            <img src="./image/Ellipse 35.png" className="img-maindev-slack"></img>
 
+                                            <img src="./image/Groupdev.png" className="img-maindev-g"></img>
+                                            <img src="./image/Vectorfacedev.png" className="img-maindev-fa"></img>
+                                            <img src="./image/Group 84.png" className="img-maindev-sl"></img>
+                                            
+                                            <p className="txtdevmain-skill">
+                                            Vivamus volutpat eros pulvinar velit laoreet, 
+                                            sit amet egestas erat dignissim. Sed quis rutrum tellus,
+                                            sit amet viverra felis. Cras sagittis sem sit amet urna feugiat rutrum. 
+                                            Nam nulla ipsum, venenatis malesuada felis quis, ultricies convallis neque. 
+                                            Pellentesque tristique
+                                            </p>
+                                        </div>
+
+                                        <div className="maindev-list">
+                                            <img src="./image/devmain.png"></img>
+                                            <p className="txtdev-id">Luu Trung Nghia </p>
+                                            <p className="txtdev-id2">Second Year Teacher</p>
+                                            <img src="./image/Ellipse 33.png" className="img-maindev-gg"></img>
+                                            <img src="./image/Ellipse 34.png" className="img-maindev-face"></img>
+                                            <img src="./image/Ellipse 35.png" className="img-maindev-slack"></img>
+
+                                            <img src="./image/Groupdev.png" className="img-maindev-g"></img>
+                                            <img src="./image/Vectorfacedev.png" className="img-maindev-fa"></img>
+                                            <img src="./image/Group 84.png" className="img-maindev-sl"></img>
+                                            
+                                            <p className="txtdevmain-skill">
+                                            Vivamus volutpat eros pulvinar velit laoreet, 
+                                            sit amet egestas erat dignissim. Sed quis rutrum tellus,
+                                            sit amet viverra felis. Cras sagittis sem sit amet urna feugiat rutrum. 
+                                            Nam nulla ipsum, venenatis malesuada felis quis, ultricies convallis neque. 
+                                            Pellentesque tristique
+                                            </p>
+                                        </div>
                                     </>
                                       
 
@@ -425,7 +469,7 @@ export default function Course()
                             </div>
                         </div>
 
-                        <div className="des-cours-list">
+                        {/* <div className="des-cours-list">
                             <div className="cours-oth">
                                 <p className="txtcours-oth">Other Courses</p>
                             </div>
@@ -470,7 +514,7 @@ export default function Course()
                                     <p className="oth-viewtxt">View all ours courses</p>
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
 
 
 
@@ -481,6 +525,8 @@ export default function Course()
 
 
                
+        </div>
+        <Footer></Footer>
         </div>
     )
 }

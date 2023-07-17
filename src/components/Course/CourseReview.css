@@ -116,11 +116,11 @@
     background: #FFF;
 }
 
-.des-cours-gr {
-    margin-top: 1px;
+.des-cours-gr-rv {
+    margin-top: -520px;
     margin-left: 85px;
     width: 350px;
-    height: 490px;
+    height: 590px;
     border: 1px solid #D1D1D1;
     background: #FFF;
     padding-top: 30px;
@@ -183,11 +183,39 @@
     background: #D1D1D1;
 }
 
+.btn-courn-solearn-end {
+    margin-top: 29px;
+    width: 310px;
+    height: 1px;
+    background: #D1D1D1;
+}
+
+.btn-end-learndev {
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-left: 40px;
+    display: flex;
+    width: 200px;
+    height: 42px;
+    border-radius: 22px;
+    background: #B2D235;
+    box-shadow: 0px 1.5px 2px 0px #6F8710 inset;
+}
+
 .magin-cours-one {
     margin-top: 30px;
 }
 
-
+.btn-end-learndev {
+    color: #FFF;
+    font-family: UTM BryantLG;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
 .solearn-cour-code {
     margin-left: 180px ;
     margin-top: -44px;
@@ -634,4 +662,159 @@
     font-weight: 400;
     line-height: 26px; /* 144.444% */
     letter-spacing: -0.36px;
+}
+
+.review05 {
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.review-btn {
+    margin-left: 20px;
+    margin-top: 0px;
+    position: absolute;
+    width: 821px;
+    height: 1px;
+    background: #E2E0E0;
+}
+
+.review-btn2 {
+    margin-left: 20px;
+    margin-top: 250px;
+    position: absolute;
+    width: 821px;
+    height: 1px;
+    background: #E2E0E0;
+}
+
+.rv-blog {
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.txtrv-blog  {
+    margin-top: 50px;
+    margin-left: 130px;
+    position: absolute;
+    color: #FFF;
+    font-family: UTM BryantLG;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    z-index: 2;
+}
+
+.rv-start-dev {
+    z-index: 2;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.rv-start-dev2 {
+    z-index: 2;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 120px;
+}
+
+.rv-start-dev3 {
+    z-index: 2;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 120px;
+}
+
+.rv-start-dev4 {
+    z-index: 2;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 120px;
+}
+
+.rv-start-dev5 {
+    z-index: 2;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 120px;
+}
+
+.txtrating-rv {
+    margin-left: 110px;
+    margin-top: 150px;
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    font-family: UTM BryantLG;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+.font-rvstart {
+    margin-top: 40px;
+    margin-left: 390px;
+    width: 454px;
+    height: 176px;
+    border-radius: 5px;
+    border: 1px solid #DFDFDF;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.txtstar5-font {
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+.btn-star5-font {
+    margin-left: 65px;
+    margin-top: -25px;
+    width: 335px;
+    height: 6px;
+    border-radius: 2px;
+    background: #B2D235;
+
+}
+
+.txtstart5-font2 {
+    margin-top: -12px;
+    margin-left: 415px;
+    color: #9BA1A1;
+    font-family: UTM BryantLG;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+
+.btn-star5-font2 {
+    margin-left: 65px;
+    margin-top: -25px;
+    width: 335px;
+    height: 6px;
+    border-radius: 2px;
+    background: #E1E1E1;
+}
+
+.font-stardev {
+    margin-top: -3px;
 }

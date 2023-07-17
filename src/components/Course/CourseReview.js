@@ -1,22 +1,22 @@
 import React ,{useState} from "react";
-import '../Course/Course.css';
-
-
-export default function Course()
+import '../Course/CourseReview.css';
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+export default function CourseReview()
 {
     const [selectedOption, setSelectedOption] = useState('');
-
     const handleOptionClick = (option) => {
       setSelectedOption(option);
     };
     return(
+        <div className="backcolo-dev">
+        <Navbar></Navbar>
         <div className="body-course">
             <div className="head-page-course">
                 <a href="/" className="head-page-home">
                     <p>Home</p> 
                     <p className="btn-head-page"> > </p>
                 </a>
-                
                 <a href="/allcourses" className="head-page-allcour">
                     <p>All courses</p> 
                     <p className="btn-head-page-all"> > </p>
@@ -31,9 +31,8 @@ export default function Course()
                         <div className="imgpage-html">
                             <img src="./image/Rectangle 7.png" className="img-html-body"></img>
                         </div>
-
                     </div>
-                    <div className="col">
+                    {/* <div className="col">
                         <div className="des-cours">
                             <p className="txtdes-cours">Descriptions course</p>
                             <div className="btndes-cours"></div>
@@ -51,7 +50,7 @@ export default function Course()
                                  hendrerit porta ante vitae tristique.
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>   
 
                 <div className="row body-page-head">
@@ -67,17 +66,15 @@ export default function Course()
 
                             </a>
                             <a
-                                href="/teacher"
+                                href="##"
                                 type='button'
                                 onClick={() => handleOptionClick('teacher')}
                                 className={selectedOption === 'teacher' ? 'selected ' : 'default'}
                             >
-                               
                                     <p className="txtlesson-cour-tea">Teacher</p>
-                              
                             </a>
                             <a
-                                href="/review"
+                                href="##"
                                 type='button'
                                 onClick={() => handleOptionClick('reviews')}
                                 className={selectedOption === 'reviews' ? 'selected ' : 'default'}
@@ -329,7 +326,7 @@ export default function Course()
                                 <div className="list-oth20"> 
                                     <div className="but-list-font"></div>
                                 </div> 
-                              
+                                {/* so trang */}
                                 <div className='list-dev-page'>
                                     <div class="row">
                                         <div class="col-md-12 cour-list-page">
@@ -370,17 +367,94 @@ export default function Course()
                                     <>
                                         <div className="but-cour-dev1"></div>
                                         <div className="but-teach-blu"></div>
+                                        <p className="txtmaindev">Main Teachers</p>
+                                        <div className="maindev-list">
+                                            <img src="./image/devmain.png"></img>
+                                            <p className="txtdev-id">Luu Trung Nghia </p>
+                                            <p className="txtdev-id2">Second Year Teacher</p>
+                                            <img src="./image/Ellipse 33.png" className="img-maindev-gg"></img>
+                                            <img src="./image/Ellipse 34.png" className="img-maindev-face"></img>
+                                            <img src="./image/Ellipse 35.png" className="img-maindev-slack"></img>
 
+                                            <img src="./image/Groupdev.png" className="img-maindev-g"></img>
+                                            <img src="./image/Vectorfacedev.png" className="img-maindev-fa"></img>
+                                            <img src="./image/Group 84.png" className="img-maindev-sl"></img>
+                                            
+                                            <p className="txtdevmain-skill">
+                                            Vivamus volutpat eros pulvinar velit laoreet, 
+                                            sit amet egestas erat dignissim. Sed quis rutrum tellus,
+                                            sit amet viverra felis. Cras sagittis sem sit amet urna feugiat rutrum. 
+                                            Nam nulla ipsum, venenatis malesuada felis quis, ultricies convallis neque. 
+                                            Pellentesque tristique
+                                            </p>
+                                        </div>
+
+                                        <div className="maindev-list">
+                                            <img src="./image/devmain.png"></img>
+                                            <p className="txtdev-id">Luu Trung Nghia </p>
+                                            <p className="txtdev-id2">Second Year Teacher</p>
+                                            <img src="./image/Ellipse 33.png" className="img-maindev-gg"></img>
+                                            <img src="./image/Ellipse 34.png" className="img-maindev-face"></img>
+                                            <img src="./image/Ellipse 35.png" className="img-maindev-slack"></img>
+
+                                            <img src="./image/Groupdev.png" className="img-maindev-g"></img>
+                                            <img src="./image/Vectorfacedev.png" className="img-maindev-fa"></img>
+                                            <img src="./image/Group 84.png" className="img-maindev-sl"></img>
+                                            
+                                            <p className="txtdevmain-skill">
+                                            Vivamus volutpat eros pulvinar velit laoreet, 
+                                            sit amet egestas erat dignissim. Sed quis rutrum tellus,
+                                            sit amet viverra felis. Cras sagittis sem sit amet urna feugiat rutrum. 
+                                            Nam nulla ipsum, venenatis malesuada felis quis, ultricies convallis neque. 
+                                            Pellentesque tristique
+                                            </p>
+                                        </div>
                                     </>
-                                      
-
                                 )}
                            
                             {selectedOption === 'reviews' && (
                                 <>
                                 <div className="but-cour-dev1"></div>
                                 <div className="but-rew-blu"></div>
+                                <p className="review05">05 Reviews</p>
+                                <div className="review-btn"></div>
+                                <img src="./image/Rectangle 174.png" className="rv-blog"></img>
+                                <p className="txtrv-blog">5</p>
+                                <img src="./image/start-rv.png" className="rv-start-dev"></img>
+                                <img src="./image/start-rv.png" className="rv-start-dev2"></img>
+                                <img src="./image/start-rv.png" className="rv-start-dev3"></img>
+                                <img src="./image/start-rv.png" className="rv-start-dev4"></img>
+                                <img src="./image/start-rv.png" className="rv-start-dev5"></img>
+                                <p className="txtrating-rv">2 Ratings</p>
 
+                                <div className="font-rvstart">
+                                    <p className="txtstar5-font">5 stars</p>
+                                    <div className="btn-star5-font"></div>
+                                    <p className="txtstart5-font2">2</p>
+                                    <div className="font-stardev">
+                                        <p className="txtstar5-font">4 stars</p>
+                                        <div className="btn-star5-font2"></div>
+                                        <p className="txtstart5-font2">0</p>
+                                    </div>
+                                    <div className="font-stardev">
+                                        <p className="txtstar5-font">3 stars</p>
+                                        <div className="btn-star5-font2"></div>
+                                        <p className="txtstart5-font2">0</p>
+                                    </div>
+                                    <div className="font-stardev">
+                                        <p className="txtstar5-font">2 stars</p>
+                                        <div className="btn-star5-font2"></div>
+                                        <p className="txtstart5-font2">0</p>
+                                    </div>
+                                    <div className="font-stardev">
+                                        <p className="txtstar5-font">1 stars</p>
+                                        <div className="btn-star5-font2"></div>
+                                        <p className="txtstart5-font2">0</p>
+                                    </div>
+                                </div>
+
+
+                                {/* <div className="review-btn2"></div> */}
                                 </>
                                 
                             )}
@@ -389,7 +463,7 @@ export default function Course()
                         </div>
                     </div>
                     <div className="col">
-                        <div className="des-cours-gr">
+                        <div className="des-cours-gr-rv">
                             <img src="./image/3hs.png"></img>
                             <p className="txt3hs">Learners</p>
                             <p className="txtlearn-cour"> : </p>
@@ -414,8 +488,9 @@ export default function Course()
                                 <p className="txt3hs">Learners</p>
                                 <p className="txtlearn-cour"> : </p>
                                 <p className="solearn-cour-code">#learn,#code</p>
-                                <div className="btn-courn-solearn"></div>
+                                
                             </div>
+                            <div className="btn-courn-solearn-end"></div>
                             <div className="magin-cours-one">
                                  <img src="./image/1do.png"></img>
                                 <p className="txt3hs">Learners</p>
@@ -423,6 +498,16 @@ export default function Course()
                                 <p className="solearn-cour">Free</p>
 
                             </div>
+                            <div className="btn-courn-solearn-end"></div>
+                            <div>
+                                <a href="##" className="btn-end-learndev">
+                                <p>
+                                Kết thúc khoá học
+                                </p>
+                                </a>
+                            </div>
+                          
+                            
                         </div>
 
                         <div className="des-cours-list">
@@ -481,6 +566,8 @@ export default function Course()
 
 
                
+        </div>
+        <Footer></Footer>
         </div>
     )
 }

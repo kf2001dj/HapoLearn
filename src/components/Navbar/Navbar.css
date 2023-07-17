@@ -1,23 +1,13 @@
 .d-flex {
-    padding: 0 40px;
+    padding: 0 20px;
 }
 .nav-link {
-    margin-left:  15px;
+    margin-left:  5px;
 }
 
-.btnallcour {
-    padding-top: 9px;
-    margin-top: 4px;
-    width: 128px;
-    height: 34px;
-    flex-shrink: 0;
-    border-radius: 17px;
-    background: #B2D235;
-}
-
-.txtallcour {
-    text-align: center;
-    color: #FEFFFF;
+.nav-item {
+    margin-right: 35px;
+    color: #505353;
     font-family: Open Sans;
     font-size: 14px;
     font-style: normal;
@@ -25,6 +15,105 @@
     line-height: normal;
     text-transform: uppercase;
 }
+
+.btn-blue-navhome {
+    position: absolute;
+
+    width: 80px;
+    height: 34px;
+    border-radius: 17px;
+    background: #B2D235;
+    color: aliceblue;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+
+.btn-blue-navhome  p {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+.btn-blue-navall {
+    position: absolute;
+    margin-left: 100px;
+    width: 128px;
+    height: 34px;
+    border-radius: 17px;
+    background: #B2D235;
+    color: aliceblue;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+
+.btn-blue-navall  p {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.btn-blue-navlog {
+    position: absolute;
+    margin-left: 255px;
+    width: 150px;
+    height: 34px;
+    border-radius: 17px;
+    background: #B2D235;
+    color: aliceblue;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+
+.btn-blue-navlog  p {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.btn-blue-navpro {
+    position: absolute;
+    margin-left: 432px;
+    width: 90px;
+    height: 34px;
+    border-radius: 17px;
+    background: #B2D235;
+    color: aliceblue;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+
+.btn-blue-navpro  p {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
 
 
 

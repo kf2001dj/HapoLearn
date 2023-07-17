@@ -7,6 +7,8 @@ import Allcourses from './page/Allcourses';
 import SignUp from './page/SignUp';
 import Password from './page/Password';
 import Course_detail from './page/Course_detail';
+import CourseTeacher from './components/Course/CourseTeacher';
+import CourseReview from './components/Course/CourseReview';
 function App() {
   return (
     <Routes>
@@ -17,6 +19,8 @@ function App() {
           <Route path='/signup' element= {<SignUp></SignUp>}></Route>
           <Route path='/resetpassword' element= {<Password></Password>}></Route>
           <Route path='/course' element= {<Course_detail></Course_detail>}></Route>
+          <Route path='/teacher' element = {<CourseTeacher></CourseTeacher>}></Route>
+          <Route path='/review' element = {<CourseReview></CourseReview>}></Route>
     </Routes> 
  );
 
