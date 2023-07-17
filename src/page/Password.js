@@ -1,14 +1,20 @@
 import React from "react";
+
 import Navbar from "../components/Navbar/Navbar";
-import Body from "../components/Body/Body";
+
+import Pass from "../components/Password/Pass";
+
 import Footer from "../components/Footer/Footer";
 
-export default function Home(){
+export default function Password()
+{
     return(
-        <div>
+        <div className="backpass">
             <Navbar/>
-            <Body/>
+            <Pass/>
             <Footer/>
         </div>
-    );
+
+
+    )
 }

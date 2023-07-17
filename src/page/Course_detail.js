@@ -1,14 +1,20 @@
 import React from "react";
+
 import Navbar from "../components/Navbar/Navbar";
-import Body from "../components/Body/Body";
+
+import Course from "../components/Course/Course";
+
 import Footer from "../components/Footer/Footer";
 
-export default function Home(){
+export default function Course_detail()
+{
     return(
-        <div>
+        <div className="backpass">
             <Navbar/>
-            <Body/>
+            <Course/>
             <Footer/>
         </div>
-    );
+
+
+    )
 }

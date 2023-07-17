@@ -1,17 +1,19 @@
 import React from "react";
+
 import Navbar from "../components/Navbar/Navbar";
 
-import Login_register from "../components/Body_Login/Login_register";
+import Sign_Up from "../components/SignUp/Sign_Up";
 
 import Footer from "../components/Footer/Footer";
-function Login_Register(){
+export default function SignUp()
+{
     return(
         <div className="backcolo">
             <Navbar/>
-            <Login_register/>  
-
+            <Sign_Up/>
             <Footer/>
         </div>
+
+
     )
 }
-export default Login_Register;
